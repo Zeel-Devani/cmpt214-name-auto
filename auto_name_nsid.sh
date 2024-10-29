@@ -32,9 +32,9 @@ SH_MAKEFILE_HEAD="# Name: $NAME
 # Student Number: $STUDENT_NUMBER
 # Course: $COURSE"
 
-# Function to add a header to a file
+# Function to add  header contents to a file
 # Args:
-#	$1 - Filename for which the header should be added
+#	$1 - Filename for which the header content should be added
 #	$2 - Header content to add
 #
 # Purpose: This function checks if the specified header already exists in the file.
@@ -42,7 +42,7 @@ SH_MAKEFILE_HEAD="# Name: $NAME
 # 
 # Pre-conditions: User must have permission to write the files
 # 
-# Post-conditions: The Header is added to the files
+# Post-conditions: The Header contents are added to the files
 # 
 # Return: None
 add_head()
@@ -63,7 +63,7 @@ add_head()
 # Loop through the all working files in directory
 for file in *;
 do 
-	if [[ "$file" == *.c || "$file" == "git.log" ]]; # Checks for .c for git.log file
+	if [[ "$file" == *.c || "$file" == "git.log" ]]; # Checks for .c or git.log file
 	then
 		add_head "$file" "$C_GIT_HEAD"		# Add the header
 	elif [[ "$file" == *.sh && "$file" != "$(basename "$0")" ]]; #Exludes the current .sh file
