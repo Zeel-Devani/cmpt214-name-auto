@@ -53,7 +53,7 @@ add_head()
 	# Check if NSID is already present in the file
 	if ! grep -q "$NSID" "$file"; # Quite mode to not return output to the terminal, instead only return exit status
 	then
-		echo "$head" | cat - "$file" > temp && mv temp "$file" # Concatenates and displacys the content of files, and replaces the original file with a new file that has the header
+		echo "$head" | cat - "$file" > temp && mv temp "$file" # Concatenates and displays the content of files, and replaces the original file with a new file that has the header
 		echo "Header added to $file"
 	else
 		echo "Header already exists in $file"
