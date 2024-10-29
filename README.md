@@ -28,7 +28,7 @@ If you are reading this, you are either a fellow CMPT 214 student, or a (x). If 
 Contributions are welcomed! If you have suggestions for improvemenets, please submit a pull request or open an issue.
 
 # Acknowledgements
-- Thanks to the CMPT 214 instructors Dr.
+- Thanks to the CMPT 214 instructors for 
   
 
 
