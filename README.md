@@ -3,7 +3,7 @@
 This bash script is designed to automate a mundane, yet essential task for CMPT 214 students, i.e, to include your Name, NSID, and other identifiable information on top of every required submission. By using this script, you can save time and ensure compliance with submission requirements.
 
 ## Purpose
-If you are reading this, you are either a fellow CMPT 214 student or a person who saw this project on GitHub, and were curious enough to click on it. Either way, the purpose of this bash script is very simple. It automates a mundane but essential task that could mean the difference between receiving a 0/100 or an x/100 (where x is a number between 1-90; no one can get 100/100 in CMPT 214).
+If you are reading this, you are either a fellow CMPT 214 student or a person who saw this project on GitHub, and were curious enough to click on it. Either way, the purpose of this bash script is very simple. It automates a mundane but essential task that could mean the difference between receiving a 0/100 or an x/100 (where x is a number between 1-99; ~~no one can get 100/100 in CMPT 214~~).
 
 The goal is to add identifiable information on top of all files that are to be submitted for assignments in CMPT 214 (unless stated otherwise). The motive behind this script is to be as efficient(some might say lazy) as possible, especially after you have finished writing your assignment code, but need to include your identifiable information to meet the requirements.
 
